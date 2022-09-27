@@ -40,7 +40,5 @@ export class HomeComponent implements OnInit {
     this.moments = this.allMoments.filter((moment) =>
       moment.title.toLowerCase().includes(value)
     );
-
-    console.log('value', value);
   }
 }
