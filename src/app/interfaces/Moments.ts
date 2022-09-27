@@ -5,7 +5,7 @@ export interface Moment {
   image: string;
   created_at?: string;
   updated_at?: string;
-  coments: Coment[];
+  comments: Coment[];
 }
 
 interface Coment {
