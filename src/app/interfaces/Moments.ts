@@ -10,5 +10,5 @@ export interface Moment {
 
 interface Coment {
   text: string;
-  userName: string;
+  username: string;
 }
